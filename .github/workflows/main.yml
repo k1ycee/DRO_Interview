@@ -24,4 +24,6 @@ jobs:
       with:
         name: apk-release
         artifacts: "build/app/outputs/apk/debug/*.apk"
+        commit: master
+        tag: v1.0.${{ github.run_number }}
         token: ${{ secrets.DRO_TOKEN }}
