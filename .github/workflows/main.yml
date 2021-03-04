@@ -1,9 +1,12 @@
-on: push
+on:
+  push:
+    branches:
+    - master
 name: Test, Build and Release apk
 jobs:
   build:
     name: Build APK
-    runs-on: android
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-java@v1
@@ -18,5 +21,6 @@ jobs:
     - name: Create a Release APK
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "build/app/outputs/apk/debug/*.apk"
+        name: apk-release
+        path: build/app/outputs/bundle/release/app-release.apk
         token: ${{ secrets.DRO_TOKEN }}
