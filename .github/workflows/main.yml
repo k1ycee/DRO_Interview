@@ -23,5 +23,5 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
         name: apk-release
-        path: build/app/outputs/bundle/release/app-release.apk
+        artifacts: "build/app/outputs/apk/debug/*.apk"
         token: ${{ secrets.DRO_TOKEN }}
