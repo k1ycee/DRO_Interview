@@ -26,4 +26,4 @@ jobs:
         artifacts: "build/app/outputs/apk/debug/*.apk"
         commit: master
         tag: v1.0.${{ github.run_number }}
-        repo-token: ${{ secrets.ACCESS_TOKEN }}
+        opts.auth: ${{ secrets.ACCESS_TOKEN }}
