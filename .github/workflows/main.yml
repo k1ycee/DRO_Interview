@@ -26,4 +26,4 @@ jobs:
         artifacts: "build/app/outputs/apk/debug/*.apk"
         commit: master
         tag: v1.0.${{ github.run_number }}
-        DRO_TOKEN: ${{ secrets.DRO_TOKEN }}
+        token: ${{ secrets.DRO_TOKEN }}
