@@ -7,7 +7,7 @@ PreferredSizeWidget appBar(
   return AppBar(
     title: Text(
       title!,
-      style: TextStyle(fontFamily: AppStrings.regular, color: black),
+      style: TextStyle(fontFamily: AppStrings.regular, color: black, fontSize: 16),
     ),
     centerTitle: true,
     actions: actions,
