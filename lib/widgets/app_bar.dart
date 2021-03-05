@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-PreferredSizeWidget appBar({Text? title, List<Widget>? actions, Widget? leading}){
+PreferredSizeWidget appBar({String? title, List<Widget>? actions, Widget? leading}){
   return AppBar(
-    title: title,
+    title: Text(title!,),
     centerTitle: true,
     actions: actions,
     leading: leading,
-    
   );
 }
