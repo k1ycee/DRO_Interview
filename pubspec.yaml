@@ -28,6 +28,7 @@ dependencies:
   provider_architecture: any
   shared_preferences: any
   rx_shared_preferences: any
+  sliding_up_panel: ^1.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
