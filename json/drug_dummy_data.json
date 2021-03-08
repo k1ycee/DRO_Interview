@@ -1,0 +1,94 @@
+{
+  "drugs": [
+    {
+      "id": 1,
+      "drug_name": "Kezitil Susp.",
+      "drug_content": "Cefuroxime Axetil",
+      "drug_form": "Oral Suspension",
+      "price": 1850,
+      "image": "images/kezitil_susp.jpeg",
+      "mass": "120mg",
+      "available_amount": 70
+    },
+    {
+      "id": 2,
+      "drug_name": "Kezitil",
+      "drug_content": "Cefuroxime Axetil",
+      "drug_form": "Tablet",
+      "price": 1540,
+      "image": "images/kezitil_tab.jpeg",
+      "mass": "125mg",
+      "available_amount": 70
+    },
+    {
+      "id": 3,
+      "drug_name": "Garlic Oil",
+      "drug_content": "Garlic Oil",
+      "drug_form": "Soft Gel",
+      "price": 500,
+      "image": "images/garlic.jpeg",
+      "mass": "650mg",
+      "available_amount": 30
+    },
+    {
+      "id": 4,
+      "drug_name": "Folic Acid",
+      "drug_content": "Folic Acid",
+      "drug_form": "Tablet",
+      "price": 650,
+      "image": "images/folic_acid_carton.jpeg",
+      "mass": "5mg",
+      "available_amount": 50
+    },
+    {
+      "id": 5,
+      "drug_name": "Paracetamol",
+      "drug_content": "Paracetamol B.P",
+      "drug_form": "Oral Suspension",
+      "price": 50,
+      "image": "images/paracetamol.jpeg",
+      "mass": "500mg",
+      "available_amount": 45
+    },
+    {
+      "id": 6,
+      "drug_name": "Vent",
+      "drug_content": "Salbutamol",
+      "drug_form": "Tablet",
+      "price": 150,
+      "image": "images/salbutamol.jpeg",
+      "mass": "2mg",
+      "available_amount": 300 
+    },
+    {
+      "id": 7,
+      "drug_name": "Vitaclox",
+      "drug_content": "Ampiilline and CLoxacillin",
+      "drug_form": "Capsule",
+      "price": 300,
+      "image": "images/vitaclox.jpeg",
+      "mass": "250mg",
+      "available_amount": 30
+    },
+    {
+      "id": 8,
+      "drug_name": "Spartan-C",
+      "drug_content": "Vitamin C",
+      "drug_form": "Tablet",
+      "price": 2000,
+      "image": "images/spartanc.jpeg",
+      "mass": "100mg",
+      "available_amount": 25
+    },
+    {
+      "id": 9,
+      "drug_name": "Folic Acid",
+      "drug_content": "Folic Acid",
+      "drug_form": "Tablet",
+      "price": 650,
+      "image": "images/folic_acid.jpeg",
+      "mass": "25mg",
+      "available_amount": 50
+    }
+  ]
+}

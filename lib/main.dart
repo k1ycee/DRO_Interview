@@ -1,6 +1,8 @@
 import 'package:dro/locator.dart';
 import 'package:dro/views/home_screen.dart';
+import 'package:dro/vm/home_vm.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   setupLocator();
@@ -13,8 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: ChangeNotifierProvider(
+        create: (context) => HomeViewModel(),
+        child: HomeScreen(),
+      ),
     );
   }
 }
-

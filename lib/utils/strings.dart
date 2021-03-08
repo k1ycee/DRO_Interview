@@ -8,4 +8,5 @@ class AppStrings{
   static String extraBold = "Proxima Nova Extra Bold";
   static String thin = "Proxima Nova Thin";
   static String regular = "Proxima Nova Regular";
+  static String nairaSymbol = "\u20A6";
 }
