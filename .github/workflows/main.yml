@@ -18,7 +18,7 @@ jobs:
         channel: 'beta'
     - run: flutter pub get
     # - run: flutter test
-    - run: flutter build apk --release --split-per-abi
+    - run: flutter build apk --no-sound-null-safety --release --split-per-abi
     - name: Create a Release APK
       uses: ncipollo/release-action@v1
       with:
